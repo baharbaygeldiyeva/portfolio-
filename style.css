@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body {
+    padding: 0px  5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+    color: black;
+    cursor: pointer;
+}
+header{
+    margin-bottom: 100px;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    margin-top: 10px;
+}
+ul {
+    display: inline-block;
+}
+ul.menu li {
+    display: inline-block;
+    justify-content: center;
+}
+li {
+    display: inline-block;
+    justify-content: center;
+    margin-right: 50px;
+}
+.imageme {
+    border-radius: 500px;
+    width: fit-content !important;
+    height: fit-content !important;
+    position: absolute;
+    left: 145px;
+    z-index: 1;
+}
+.image-bg {
+    position: absolute;
+    left: 90px;
+    z-index: 0;
+}
+.image-bg img {
+    border-radius: 500px;
+    width: auto !important;
+    height: 23rem;
+}
+
+.imageme img{
+    border-radius: 500px;
+    width: auto !important;
+    height: 23rem;
+}
+.avatar {
+position: relative;
+}
+.pic {
+    margin-top: 10% !important;
+}
+.btn {
+    color: rgb(241, 241, 241);
+    background-color: grey !important;
+    border: 2px;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px !important;
+}
+.about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.abt {
+   padding-left: 15px;
+}
+.cen {
+    padding-left: 35%;
+}
+
+h1 {
+    font-size:7vw;
+    font-weight: 800;
+    margin: 0px !important;
+    margin-bottom: 5% !important;
+}
+h2 {
+    font-size: 28px;
+    font-weight: 500 !important;
+    margin: 0px !important;
+    margin-bottom: 5px !important;
+}
+p {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px !important;
+    margin-bottom: 25px !important;
+    margin-top: 25px !important;
+}
+h6 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+    margin-top: 25px;
+}
+.italic {
+    font-size: 15px;
+}
+.thin {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+  @media screen and (max-width: 600px ) {
+     
+    .italic, .abt, .thin,  .cen{
+      font-size: 1rem !important; 
+    }
+    h1, h2, h3, h6, p{
+        font-size: 1rem !important;
+      }
+    h1, h2{
+      font-size: 1rem !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn{
+        font-size: 1rem !important;
+        margin-left: 30%;
+        margin-bottom: 3rem;
+      }
+  }
+  @media screen and (max-width: 800px ) {
+    .avatar, .image-bg img,.imageme img{
+     height: 15rem !important; 
+     width: auto;
+   } 
+   .imageme{
+    left: 55px;
+   }
+   .image-bg {
+    left: 20px;
+   }
+}

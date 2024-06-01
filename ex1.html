@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.min.css" />
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <title>ex1</title>
+  </head>
+  <body>
+    <header class="d-flex justify-content-between">
+      <h6>Bahar Baygeldiyeva</h6>
+      <nav>
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Work">Work</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <ul>
+          <li><img src="./photo/insta.png" width="25" height="25" /></li>
+          <li><img src="./photo/linkedin.png" width="25" height="25" /></li>
+          <li><img src="./photo/whatsaap.png" width="25" height="25" /></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="col-12 row ">
+      <div class="d-flex flex-column justify-content-center col-lg-6 col-md-6 col-sm-12">
+        
+        <h2>hello, I'm Bahar</h2>
+        <div id="text">
+          <h1>Computer Engineering</h1>
+        </div> 
+        <h2>based in turkmenistan</h2>
+        <button class="btn" type="button" value="resume">resume</button>
+      </div>
+      <div class="avatar d-flex flex-column justify-content-center col-lg-6 col-md-6 col-sm-12">
+        <div class="imageme">    
+            <img src="./photo/me.png " width="450" height="auto" />
+        </div>
+        <div class="image-bg  ">    
+            <img src="./bg.svg" width="450" height="auto" />
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <h1>about.</h1>
+      <p>
+        Computer enginnering studen with a foundation in hardware and software.
+        Skilled in programming , digital circuit design. and problem solving.
+        Passionate about tehnology, innovation and eager to learn.
+      </p>
+      <div class="cen">
+        <div>
+          <h6>2022</h6>
+          <p>baskent university</p>
+        </div>
+        <div>
+          <h6>2022</h6>
+          <p>baskent university</p>
+        </div>
+        <div>
+          <h6>2022</h6>
+          <p>baskent university</p>
+        </div>
+        <div>
+          <h6>2022</h6>
+          <p>baskent university</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h1>work.</h1>
+      <p>
+         Computer Engineering Community Baskent University
+      </p>
+      <p>Intern at Arassa Nusga company</p>
+      <div class="pic col-12 row justify-content-center">
+        <div class="col-lg-6 col-md-6 col-sm-12 row">
+          <img src="./photo/freetzing.png" width="517" height="auto" />
+          <p class="italic">may.17.2023</p>
+          <h6>Some Case Study</h6>
+          <p class="thin">Project Smart Greenhouse. Frettzing model</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 row">
+          <img src="./photo/sulama.png" width="582" height="auto" />
+          <p class="italic">may.17.2023</p>
+          <h6>Some Case Study</h6>
+          <p class="thin">
+            Sulama application. Made with MIT app invetror for Smart Greenhouse
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <h1>contact.</h1>
+      <div class="contact col-12 row">
+        <div class="col-lg-6 col-md-6 col-sm-12 row">
+          <img src="./photo/contact.jpg" width="450" height="auto" />
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <p>personal: baharbaygeldiyeva02@gmail.com</p>
+          <p>work: b.baygeldiyeva@arassanusga.com</p>
+          <p>phone tm: +905364708840</p>
+          <p>phone tr: +99363592220</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      var text = document.querySelector("#text");
+      text.style.opacity = 0;
+      setTimeout(function() {
+        text.style.opacity = 5;
+      }, 500);
+    </script>
+  
+  </body>
+</html>
